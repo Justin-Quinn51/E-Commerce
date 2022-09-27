@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import Lightbox from './components/Lightbox'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
+      <Lightbox />
     </div>
   )
 }
