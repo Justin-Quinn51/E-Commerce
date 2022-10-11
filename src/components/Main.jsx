@@ -1,4 +1,4 @@
-import Lightbox from "./Lightbox";
+import Lightbox from './Lightbox'
 
 export default function Main() {
   return (
