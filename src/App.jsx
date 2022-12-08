@@ -1,16 +1,13 @@
-import Navbar from './components/Navbar'
-import Main from './components/Main'
-import Lightbox from './components/Lightbox'
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 function App() {
-
   return (
     <div className="App">
       <Navbar />
       <Main />
-      <Lightbox />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
